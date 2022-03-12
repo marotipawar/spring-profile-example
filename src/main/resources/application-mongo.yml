@@ -1,0 +1,19 @@
+spring:
+  config:
+    activate:
+      on-profile:
+        - mongo
+        -
+  mongodb:
+    embedded:
+      version: 3.0.0
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+
+
+
+
+
+
